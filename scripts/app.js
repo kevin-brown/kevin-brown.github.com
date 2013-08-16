@@ -4,7 +4,7 @@ Website.config(["$routeProvider", function($routeProvider)
 {
     $routeProvider.when("/home", {
         controller: "IndexCtrl",
-        templateView: "views/index.html"
+        templateUrl: "views/index.html"
     }).otherwise({
         redirectTo: "/home"
     });

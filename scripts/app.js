@@ -2,10 +2,16 @@ var Website = angular.module("website", ["ui.bootstrap"]);
 
 Website.config(["$routeProvider", function($routeProvider)
 {
-    $routeProvider.when("/home", {
+    $routeProvider
+    .when("/home", {
         controller: "IndexCtrl",
         templateUrl: "views/index.html"
-    }).otherwise({
+    })
+    .when("/resume", {
+        controller: "ResumeCtrl",
+        templateUrl: "views/resume.html"
+    })
+    .otherwise({
         redirectTo: "/home"
     });
 }]);

@@ -2,3 +2,25 @@ body
 {
     padding-top: 50px;
 }
+
+.resume section
+{
+    margin-bottom: 1em;
+}
+
+.resume h2, .resume h3
+{
+    margin-top: 0;
+}
+
+.resume h3 small
+{
+    float: right;
+    line-height: 1.5em;
+    text-align: right;
+}
+
+.resume h4
+{
+    font-style: italic;
+}

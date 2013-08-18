@@ -3,6 +3,30 @@ body
     padding-top: 50px;
 }
 
+.row-flexible .row
+{
+    margin-bottom: 1em;
+}
+
+.tools-list
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tools-list .tool
+{
+    float: left;
+    margin-right: 1em;
+}
+
+.tools-list .tool img
+{
+    height: 60px;
+    width: 60px;
+}
+
 .resume section
 {
     margin-bottom: 1em;

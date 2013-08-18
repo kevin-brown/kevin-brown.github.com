@@ -48,3 +48,18 @@ body
 {
     font-style: italic;
 }
+
+.projects-list .project h2
+{
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.projects-list .project-link
+{
+    display: block;
+    margin-bottom: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

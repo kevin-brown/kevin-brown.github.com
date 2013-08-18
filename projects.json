@@ -10,9 +10,9 @@
         ],
         "tools": [
             {
-                "name": "C#",
-                "image": "http://placehold.it/120x120",
-                "website": "#/projects/tools/c-sharp"
+                "name": ".NET",
+                "image": "http://i.imgur.com/z4uvb6K.png",
+                "website": "#/projects/tools/dot-net"
             }
         ],
         "description": ""
@@ -24,31 +24,46 @@
         "preview": "http://placehold.it/300x200",
         "images": null,
         "tools": [
-            "JavaScript",
-            "AngularJS"
+            {
+                "name": "JavaScript",
+                "image": "http://placehold.it/120x120",
+                "website": "#/projects/tools/js"
+            },
+            {
+                "name": "AngularJS",
+                "image": "http://i.imgur.com/XEoPGMR.png",
+                "website": "http://angularjs.org"
+            }
         ],
         "description": ""
     },
     {
-        "title": "Coldstorm",
-        "website": "http://coldstorm.github.io",
+        "id": 3,
+        "title": "DOAC",
+        "website": "https://github.com/Rediker-Software/doac",
         "preview": "http://placehold.it/300x200",
         "images": null,
         "tools": [
-            "C#",
-            "WPF",
-            "NetIRC"
+            {
+                "name": "Python",
+                "image": "http://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+                "website": "http://python.org"
+            },
+            {
+                "name": "Django",
+                "image": "http://i.imgur.com/KSU6ZH0.png",
+                "website": "https://djangoproject.com"
+            }
         ],
         "description": ""
     },
     {
+        "id": 4,
         "title": "QueueManager",
         "website": "http://kevinbrown.in/QueueManager",
         "preview": "http://placehold.it/300x200",
         "images": null,
-        "tools": [
-            "C#"
-        ],
+        "tools": null,
         "description": ""
     }
 ]

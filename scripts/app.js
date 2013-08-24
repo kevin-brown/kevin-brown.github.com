@@ -7,6 +7,10 @@ Website.config(["$routeProvider", function($routeProvider)
         controller: "IndexCtrl",
         templateUrl: "views/index.html"
     })
+    .when("/projects", {
+        controller: "ProjectsCtrl",
+        templateUrl: "views/projects.html"
+    })
     .when("/projects/:type", {
         controller: "ProjectsCtrl",
         templateUrl: "views/projects.html"

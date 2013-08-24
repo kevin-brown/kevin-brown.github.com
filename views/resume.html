@@ -1,14 +1,101 @@
 <div class="resume">
 
-<div class="page-header">
+<div class="page-header visible-print">
     <h1>Kevin Brown</h1>
 </div>
 
-<section class="row">
-    <div class="col-md-3">
-        <h2>Work Experience</h2>
+<section class="row first-row">
+    <div class="col-md-4 contact">
+        <h2 id="contact">
+            <i class="icon-asterisk"></i>
+            Contact
+        </h2>
+
+        <dl class="dl-horizontal contact-list">
+            <dt>
+                <abbr title="Email"><i class="icon-envelope"></i></abbr>
+            </dt>
+            <dd>
+                <a href="mailto:kevin@kevinbrown.in">
+                    kevin @ kevinbrown.in
+                </a>
+            </dd>
+
+            <dt>
+                <abbr title="GitHub"><i class="icon-github"></i></abbr>
+            </dt>
+            <dd>
+                <a href="https://github.com/kevin-brown">
+                    kevin-brown @ GitHub
+                </a>
+            </dd>
+        </dl>
     </div>
-    <div class="col-md-9">
+
+    <div class="col-md-4 languages">
+        <h2>
+            <i class="icon-code"></i>
+            Languages
+        </h2>
+
+        <dl class="language-list">
+            <dt>Proficient</dt>
+            <dd>Python, C#/VB.NET, PHP, JavaScript</dd>
+
+            <dt>Familiar with</dt>
+            <dd>Java, Ruby, ASP.NET</dd>
+        </dl>
+    </div>
+
+    <div class="col-md-4">
+        <h2>
+            <i class="icon-beaker"></i>
+            Technologies
+        </h2>
+
+        <ul class="technologies-list pull-right">
+            <li>
+                AngularJS
+                <i class="icon-info-sign technologies-info"
+                tooltip="Building websites without templates and data-binding
+                feels wrong now"></i>
+            </li>
+            <li>SASS/LESS</li>
+            <li>PostgreSQL / MySQL</li>
+            <li>Redis</li>
+        </ul>
+
+        <ul class="technologies-list">
+            <li>
+                Linux
+                <i class="icon-info-sign technologies-info"
+                tooltip="I switched to Ubuntu and manage it across desktops
+                and servers"></i>
+            </li>
+            <li>
+                git
+                <i class="icon-info-sign technologies-info"
+                tooltip="Version control has proven to be invaluable on the
+                large projects I have worked on"></i>
+            </li>
+            <li>
+                Django
+                <i class="icon-info-sign technologies-info"
+                tooltip="I've built an application from the ground up using it
+                along with multiple smaller applications"></i>
+            </li>
+            <li>jQuery</li>
+        </ul>
+    </div>
+</section>
+
+<section class="row work">
+    <div class="col-md-6">
+        <h2 id="experience">
+            <i class="icon-briefcase"></i>
+            Experience
+        </h2>
+
         <h3>
             Rediker Software, Inc.
             <small>
@@ -18,57 +105,162 @@
         </h3>
 
         <h4>
-            Lead Developer
+            Lead Software Engineer
         </h4>
 
-        <p>
-            Managed a team of six developers as we continued to maintain and
-            release features for the Teacher Evaluator web application.
-        </p>
+        <ul>
+            <li>
+                Lead a team of developers to bring new features into Teacher
+                Evaluator. (Summer 2013)
+            </li>
+            <li class="hidden-print">
+                Introduced the team to new technologies.
+            </li>
+            <li>
+                Successfully transitioned Teacher Evaluator to scale using
+                Windows Azure virtual machines.
+            </li>
+        </ul>
 
-        <h4>
+        <h4 class="hidden-print">
             Development Intern
         </h4>
 
-        <p>
-            Worked with a team of four other developers to create the Teacher
-            Evaluator web application.
-        </p>
+        <ul>
+            <li>
+                Worked with a small team to create the Teacher Evaluator web
+                application.  This was done from the ground up using the
+                Django framework. (Summer 2012)
+            </li>
+            <li class="hidden-print">
+                Trained new maintainers as they were brought on the project.
+            </li>
+            <li>
+                Optimized the development workflow to suit both in-house and
+                remote development of Teacher Evaluator.
+            </li>
+        </ul>
 
+        <!--
         <h4>
             Sales / Marketing Intern
         </h4>
+        -->
 
         <h3>
             Hampden-Wilbraham Regional School District
             <small>
                 Wilbraham, MA <br />
-                August 2011 &ndash; August 2012
+                August 2011 &ndash; January 2013
             </small>
         </h3>
 
         <h4>
-            Techology Intern
+            Technology Intern
         </h4>
 
-        <!--<p>
-            Some more less awesome information
-        </p>-->
+        <ul>
+            <li>
+                Maintained the technology infrastructure within the old High
+                School as we transitioned to the new school.
+            </li>
+            <li class="hidden-print">
+                Assisted in the transition to the new High School as we set
+                up new technologies for the staff.
+            </li>
+        </ul>
     </div>
-</section>
 
-<section class="row">
-    <div class="col-md-3">
-        <h2>Volunteer Work</h2>
-    </div>
-    <div class="col-md-9">
+    <div class="col-md-6">
+        <h2 id="projects">
+            <i class="icon-terminal"></i>
+            Projects
+        </h2>
+
         <h3>
-            Key Club
+            <small>
+                <a href="#/projects/tools/django" class="tool badge">
+                    Django
+                </a>
+                <a href="#/projects/tools/python" class="tool badge">
+                    Python
+                </a>
+            </small>
+            Django OAuth2 Consumer (DOAC)
+            <a href="https://github.com/Rediker-Software/doac"
+            class="github-source" tooltip="View DOAC on GitHub">
+                <i class="icon-github"></i>
+            </a>
         </h3>
+
+        <ul>
+            <li>
+                Flexible Django application that can be used on any project
+                that needs minimal work to set it up.
+            </li>
+            <li class="hidden-print">
+                Allows any Django project to use OAuth 2 for authorization.
+            </li>
+            <li>
+                Includes a full test suite to ensure that future changes do
+                not break expected functionality.
+            </li>
+            <li>
+                Supports popular Django applications such as
+                <a href="http://django-rest-framework.com">Django REST
+                Framework</a> and the Django admin application.
+        </ul>
+
+        <h3>
+            <small>
+                <a href="#/projects/tools/angular-js" class="tool badge">
+                    AngularJS
+                </a>
+                <a href="#/projects/tools/javascript" class="tool badge">
+                    JavaScript
+                </a>
+            </small>
+            Coldstorm IRC Client
+            <a href="https://github.com/coldstorm/coldstorm"
+            class="github-source" tooltip="View coldstorm on GitHub">
+                <i class="icon-github"></i>
+            </a>
+        </h3>
+
+        <ul>
+            <li>
+                Web-based IRC client powered using WebSockets and AngularJS.
+            </li>
+        </ul>
+
+        <h3>
+            <small>
+                <a href="#/projects/tools/dot-net" class="tool badge">
+                    C#.NET
+                </a>
+            </small>
+            NetIRC
+            <a href="https://github.com/kevin-brown/NetIRC"
+            class="github-source" tooltip="View NetIRC on GitHub">
+                <i class="icon-github"></i>
+            </a>
+        </h3>
+
+        <ul>
+            <li>
+                IRC framework built in C# that is designed to be flexible
+                enough to handle the IRC protocol.
+            </li>
+            <li>
+                Supports custom messages, allowing it to be used for IRC
+                clients, bots, or whatever it is needed for.
+            </li>
+        </ul>
     </div>
 </section>
 
-<!--<section class="row">
+<!--
+<section class="row">
     <div class="col-md-3">
         <h2>Education</h2>
     </div>
@@ -77,6 +269,7 @@
             Western New England University
         </h3>
     </div>
-</section>-->
+</section>
+-->
 
 </div>

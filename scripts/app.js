@@ -11,7 +11,7 @@ Website.config(["$routeProvider", function($routeProvider)
         controller: "ProjectsCtrl",
         templateUrl: "views/projects.html"
     })
-    .when("/projects/:type", {
+    .when("/projects/category/:category", {
         controller: "ProjectsCtrl",
         templateUrl: "views/projects.html"
     })

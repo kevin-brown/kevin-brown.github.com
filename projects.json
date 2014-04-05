@@ -10,11 +10,13 @@
         ],
         "tools": [
             {
+                "slug": "dot-net",
                 "name": ".NET",
-                "image": "http://i.imgur.com/z4uvb6K.png",
+                "image": "/images/dot-net-logo.jpg",
                 "website": "#/projects/tools/dot-net"
             }
         ],
+        "category": "native",
         "description": ""
     },
     {
@@ -25,16 +27,19 @@
         "images": null,
         "tools": [
             {
+                "slug": "js",
                 "name": "JavaScript",
                 "image": "http://placehold.it/120x120",
                 "website": "#/projects/tools/js"
             },
             {
+                "slug": "angularjs",
                 "name": "AngularJS",
-                "image": "http://i.imgur.com/XEoPGMR.png",
+                "image": "/images/angularjs-logo.png",
                 "website": "http://angularjs.org"
             }
         ],
+        "category": "web",
         "description": ""
     },
     {
@@ -45,16 +50,19 @@
         "images": null,
         "tools": [
             {
+                "slug": "python",
                 "name": "Python",
-                "image": "http://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+                "image": "/images/python-logo.svg",
                 "website": "http://python.org"
             },
             {
+                "slug": "django",
                 "name": "Django",
-                "image": "http://i.imgur.com/KSU6ZH0.png",
+                "image": "/images/django-logo.png",
                 "website": "https://djangoproject.com"
             }
         ],
+        "category": "web",
         "description": ""
     },
     {
@@ -63,7 +71,15 @@
         "website": "http://kevinbrown.in/QueueManager",
         "preview": "http://placehold.it/300x200",
         "images": null,
-        "tools": null,
+        "tools": [
+            {
+                "slug": "dot-net",
+                "name": ".NET",
+                "image": "/images/dot-net-logo.jpg",
+                "website": "#/projects/tools/dot-net"
+            }
+        ],
+        "category": "native",
         "description": ""
     }
 ]

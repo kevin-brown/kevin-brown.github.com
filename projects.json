@@ -81,5 +81,45 @@
         ],
         "category": "native",
         "description": ""
+    },
+    {
+        "id": 5,
+        "title": "Select2",
+        "website": "http://ivaynberg.github.io/select2",
+        "preview": "http://placehold.it/300x200",
+        "images": null,
+        "tools": [
+            {
+                "slug": "js",
+                "name": "JavaScript",
+                "image": "http://placehold.it/120x120",
+                "website": "#/projects/tools/js"
+            },
+            {
+                "slug": "jquery",
+                "name": "jQuery",
+                "image": "/images/jquery-logo.gif",
+                "website": "http://jquery.com"
+            }
+        ],
+        "category": "web",
+        "description": ""
+    },
+    {
+        "id": 6,
+        "title": "MouseTrap",
+        "website": "https://wiki.gnome.org/Projects/MouseTrap",
+        "preview": "http://placehold.it/300x200",
+        "images": null,
+        "tools": [
+            {
+                "slug": "python",
+                "name": "Python",
+                "image": "/images/python-logo.svg",
+                "website": "http://python.org/"
+            }
+        ],
+        "category": "native",
+        "description": ""
     }
 ]

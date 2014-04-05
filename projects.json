@@ -121,5 +121,22 @@
         ],
         "category": "native",
         "description": ""
+    },
+    {
+        "id": 7,
+        "title": "Chrome Old NTP",
+        "website": "https://chrome.google.com/webstore/detail/old-new-tab/klcijojgndghhnmkifealgnjgmclghio",
+        "preview": "http://placehold.it/300x200",
+        "images": null,
+        "tools": [
+            {
+                "slug": "js",
+                "name": "JavaScript",
+                "image": "http://placehold.it/120x120",
+                "website": "#/projects/tools/js"
+            }
+        ],
+        "category": "native",
+        "description": "Replaces the new tab page in an attempt to replicate the old new tab page."
     }
 ]

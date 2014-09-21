@@ -23,13 +23,13 @@
         "id": 2,
         "title": "Coldstorm",
         "website": "http://coldstorm.tk",
-        "preview": "http://placehold.it/300x200",
+        "preview": "/images/projects/coldstorm.png",
         "images": null,
         "tools": [
             {
                 "slug": "js",
                 "name": "JavaScript",
-                "image": "http://placehold.it/120x120",
+                "image": "/images/javascript-logo.png",
                 "website": "#/projects/tools/js"
             },
             {
@@ -86,13 +86,13 @@
         "id": 5,
         "title": "Select2",
         "website": "http://ivaynberg.github.io/select2",
-        "preview": "http://placehold.it/300x200",
+        "preview": "/images/projects/select2.png",
         "images": null,
         "tools": [
             {
                 "slug": "js",
                 "name": "JavaScript",
-                "image": "http://placehold.it/120x120",
+                "image": "/images/javascript-logo.png",
                 "website": "#/projects/tools/js"
             },
             {
@@ -109,7 +109,7 @@
         "id": 6,
         "title": "MouseTrap",
         "website": "https://wiki.gnome.org/Projects/MouseTrap",
-        "preview": "http://placehold.it/300x200",
+        "preview": "/images/projects/mousetrap.png",
         "images": null,
         "tools": [
             {
@@ -126,13 +126,13 @@
         "id": 7,
         "title": "Chrome Old NTP",
         "website": "https://chrome.google.com/webstore/detail/old-new-tab/klcijojgndghhnmkifealgnjgmclghio",
-        "preview": "http://placehold.it/300x200",
+        "preview": "/images/projects/chrome-old-ntp.png",
         "images": null,
         "tools": [
             {
                 "slug": "js",
                 "name": "JavaScript",
-                "image": "http://placehold.it/120x120",
+                "image": "/images/javascript-logo.png",
                 "website": "#/projects/tools/js"
             }
         ],

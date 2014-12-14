@@ -2,10 +2,10 @@
     {
         "id": 1,
         "title": "NetIRC",
-        "website": "http://kevinbrown.in/NetIRC",
-        "preview": "http://placehold.it/300x200",
+        "website": "https://kevinbrown.in/NetIRC",
+        "preview": "https://placehold.it/300x200",
         "images": [
-            "http://placehold.it/1100x700",
+            "https://placehold.it/1100x700",
             ""
         ],
         "tools": [
@@ -46,7 +46,7 @@
         "id": 3,
         "title": "DOAC",
         "website": "https://github.com/Rediker-Software/doac",
-        "preview": "http://placehold.it/300x200",
+        "preview": "https://placehold.it/300x200",
         "images": null,
         "tools": [
             {
@@ -68,8 +68,8 @@
     {
         "id": 4,
         "title": "QueueManager",
-        "website": "http://kevinbrown.in/QueueManager",
-        "preview": "http://placehold.it/300x200",
+        "website": "https://kevinbrown.in/QueueManager",
+        "preview": "https://placehold.it/300x200",
         "images": null,
         "tools": [
             {

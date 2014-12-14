@@ -1,30 +1,12 @@
 [
     {
-        "id": 1,
-        "title": "NetIRC",
-        "website": "https://kevinbrown.in/NetIRC",
-        "preview": "https://placehold.it/300x200",
-        "images": [
-            "https://placehold.it/1100x700",
-            ""
-        ],
-        "tools": [
-            {
-                "slug": "dot-net",
-                "name": ".NET",
-                "image": "/images/dot-net-logo.jpg",
-                "website": "#/projects/tools/dot-net"
-            }
-        ],
-        "category": "native",
-        "description": ""
-    },
-    {
-        "id": 2,
         "title": "Coldstorm",
-        "website": "http://coldstorm.tk",
+        "website": "https://github.com/coldstorm/coldstorm",
         "preview": "/images/projects/coldstorm.png",
-        "images": null,
+        "images": [
+            "/images/projects/coldstorm/1.png",
+            "/images/projects/coldstorm/2.png"
+        ],
         "tools": [
             {
                 "slug": "js",
@@ -40,10 +22,94 @@
             }
         ],
         "category": "web",
-        "description": ""
+        "description": "Coldstorm is an open-source IRC client for the Frogbox IRC network. It is built as a single page application using AngularJS and is hosted using GitHub Pages."
     },
     {
-        "id": 3,
+        "title": "Select2",
+        "website": "https://ivaynberg.github.io/select2",
+        "preview": "/images/projects/select2.png",
+        "images": [
+            "/images/projects/select2/1.png",
+            "/images/projects/select2/2.png"
+        ],
+        "tools": [
+            {
+                "slug": "js",
+                "name": "JavaScript",
+                "image": "/images/javascript-logo.png",
+                "website": "#/projects/tools/js"
+            },
+            {
+                "slug": "jquery",
+                "name": "jQuery",
+                "image": "/images/jquery-logo.gif",
+                "website": "http://jquery.com"
+            }
+        ],
+        "category": "web",
+        "description": "Select2 is a jQuery plugin that gives you a customizable select box with support for searching, tagging, remote data sets, infinite scrolling, and many other options."
+    },
+    {
+        "title": "MouseTrap",
+        "website": "https://wiki.gnome.org/Projects/MouseTrap",
+        "preview": "/images/projects/mousetrap.png",
+        "images": [
+            "/images/projects/mousetrap/1.jpg"
+        ],
+        "tools": [
+            {
+                "slug": "python",
+                "name": "Python",
+                "image": "/images/python-logo.svg",
+                "website": "http://python.org/"
+            }
+        ],
+        "category": "native",
+        "description": "MouseTrap is a standalone GNOME application that allows users with physical impairments to move a mouse cursor. It is developed in Python and uses the OpenCV library to detect facial features from webcam images."
+    },
+    {
+        "title": "Django REST Framework",
+        "website": "http://www.django-rest-framework.org",
+        "preview": "/images/projects/django-rest-framework.png",
+        "images": [
+            "/images/projects/django-rest-framework/1.png"
+        ],
+        "tools": [
+            {
+                "slug": "python",
+                "name": "Python",
+                "image": "/images/python-logo.svg",
+                "website": "http://python.org/"
+            },
+            {
+                "slug": "django",
+                "name": "Django",
+                "image": "/images/django-logo.png",
+                "website": "https://djangoproject.com"
+            }
+        ],
+        "category": "web",
+        "description": "Django REST Framework is a powerful and flexible toolkit that makes it easy to build Web APIs for the popular Django web framework."
+    },
+    {
+        "title": "Chrome Old NTP",
+        "website": "https://chrome.google.com/webstore/detail/old-new-tab/klcijojgndghhnmkifealgnjgmclghio",
+        "preview": "/images/projects/chrome-old-ntp.png",
+        "images": [
+            "/images/projects/chrome-old-ntp/1.png"
+        ],
+        "tools": [
+            {
+                "slug": "js",
+                "name": "JavaScript",
+                "image": "/images/javascript-logo.png",
+                "website": "#/projects/tools/js"
+            }
+        ],
+        "category": "native",
+        "description": "Chrome Old NTP is a custom new tab page for Google Chrome that attempts to replicate the old new tab page.  It was created using AngularJS and interacts with the native Chrome APIs to retrieve the required information to display."
+    },
+    {
         "title": "DOAC",
         "website": "https://github.com/Rediker-Software/doac",
         "preview": "https://placehold.it/300x200",
@@ -63,12 +129,11 @@
             }
         ],
         "category": "web",
-        "description": ""
+        "description": "Djago OAuth2 Consumer is a reusable application for providing a OAuth provider for your project."
     },
     {
-        "id": 4,
-        "title": "QueueManager",
-        "website": "https://kevinbrown.in/QueueManager",
+        "title": "NetIRC",
+        "website": "https://github.com/kevin-brown/NetIRC",
         "preview": "https://placehold.it/300x200",
         "images": null,
         "tools": [
@@ -80,63 +145,22 @@
             }
         ],
         "category": "native",
-        "description": ""
+        "description": "NetIRC serves as a highly flexible framework for building IRC clients using the .NET Framework."
     },
     {
-        "id": 5,
-        "title": "Select2",
-        "website": "http://ivaynberg.github.io/select2",
-        "preview": "/images/projects/select2.png",
+        "title": "QueueManager",
+        "website": "https://github.com/kevin-brown/QueueManager",
+        "preview": "https://placehold.it/300x200",
         "images": null,
         "tools": [
             {
-                "slug": "js",
-                "name": "JavaScript",
-                "image": "/images/javascript-logo.png",
-                "website": "#/projects/tools/js"
-            },
-            {
-                "slug": "jquery",
-                "name": "jQuery",
-                "image": "/images/jquery-logo.gif",
-                "website": "http://jquery.com"
-            }
-        ],
-        "category": "web",
-        "description": ""
-    },
-    {
-        "id": 6,
-        "title": "MouseTrap",
-        "website": "https://wiki.gnome.org/Projects/MouseTrap",
-        "preview": "/images/projects/mousetrap.png",
-        "images": null,
-        "tools": [
-            {
-                "slug": "python",
-                "name": "Python",
-                "image": "/images/python-logo.svg",
-                "website": "http://python.org/"
+                "slug": "dot-net",
+                "name": ".NET",
+                "image": "/images/dot-net-logo.jpg",
+                "website": "#/projects/tools/dot-net"
             }
         ],
         "category": "native",
-        "description": ""
-    },
-    {
-        "id": 7,
-        "title": "Chrome Old NTP",
-        "website": "https://chrome.google.com/webstore/detail/old-new-tab/klcijojgndghhnmkifealgnjgmclghio",
-        "preview": "/images/projects/chrome-old-ntp.png",
-        "images": null,
-        "tools": [
-            {
-                "slug": "js",
-                "name": "JavaScript",
-                "image": "/images/javascript-logo.png",
-                "website": "#/projects/tools/js"
-            }
-        ],
-        "category": "native",
-        "description": "Replaces the new tab page in an attempt to replicate the old new tab page."
+        "description": "QueueManager allows you to have one central queue with multiple sub-queues that are managed using rules in any .NET spplication."
     }
 ]

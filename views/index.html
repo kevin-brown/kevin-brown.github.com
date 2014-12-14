@@ -12,38 +12,33 @@
     <div class="col-sm-6">
         <h2>Web</h2>
 
-        <img src="https://placehold.it/1100x700"
+        <img ng-src="{{ web.image }}"
             class="img-rounded img-thumbnail" />
 
-        <p>
-            Some awesome information about the application that is being
-            shown.  Along with some information on what technologies it
-            used and anything related to it that was made open-source.
-        </p>
+        <p>{{ web.description }}</p>
 
         <p>
             <a href="#/projects/category/web">
                 Other web projects I've worked on
-                <i class="icon-arrow-up"></i>
+                <i class="icon-arrow-right"></i>
             </a>
+        </p>
     </div>
     <div class="col-sm-6">
         <h2>Native</h2>
 
-        <img src="https://placehold.it/1100x700"
+        <img ng-src="{{ native.image }}"
             class="img-rounded img-thumbnail" />
 
-        <p>
-            Something about what I know for native languages and what
-            this picture is about.  There would also be some cool information
-            on what it used and targetted, maybe even how it was built.
-        </p>
+        <p>{{ native.description }}</p>
 
         <p>
             <a href="#/projects/category/native">
                 Other native applications I've worked on
-                <i class="icon-arrow-up"></i>
+                <i class="icon-arrow-right"></i>
             </a>
         </p>
     </div>
 </div>
+
+{{ projects }}

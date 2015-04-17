@@ -50,6 +50,24 @@
         "description": "Select2 is a jQuery plugin that gives you a customizable select box with support for searching, tagging, remote data sets, infinite scrolling, and many other options."
     },
     {
+        "title": "Zorg",
+        "website": "https://gunthercox.github.io/zorg/",
+        "preview": "/images/projects/zorg.jpg",
+        "images": [
+            "/images/projects/zorg/1.png"
+        ],
+        "tools": [
+            {
+                "slug": "python",
+                "name": "Python",
+                "image": "/images/python-logo.svg",
+                "website": "http://python.org"
+            }
+        ],
+        "category": "native",
+        "description": "Zorg is a Python framework for robotics, physical computing projects and the Internet of Things. It makes it easy to configure and command your creations."
+    },
+    {
         "title": "MouseTrap",
         "website": "https://wiki.gnome.org/Projects/MouseTrap",
         "preview": "/images/projects/mousetrap.png",

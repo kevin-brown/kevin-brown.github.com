@@ -1,23 +1,27 @@
 <div class="page-header">
-    <h1>I build applications from the ground up</h1>
+    <h1>I build things</h1>
 </div>
 
-<div class="alert alert-warning">
-    <strong>It's a work in progress:</strong>
-    This website is still under construction.  Not all of the pages have been
-    created.
-</div>
+<p class="lead">
+    I am a software developer who enjoys working on applications, whether they are on the web, a computer, or a mobile device. As a contributor to many highly used open source software projects, I enjoy seeing the impact that a single project can make. I am not only interested in developing though, and enjoy managing servers and applications in order to improve the predictability, efficiency, and maintainability of applications.
+</p>
 
 <div class="row">
     <div class="col-sm-6">
-        <h2>Web</h2>
+        <h2 title="Includes web applications, plugins designed for the web, and open source compnents.">Web</h2>
 
-        <img ng-src="{{ web.image }}"
-            class="img-rounded img-thumbnail" />
+        <p>
+            <img ng-src="{{ web.image }}" class="img-rounded img-thumbnail" />
+        </p>
 
         <p>{{ web.description }}</p>
 
         <p>
+            <a ng-href="{{ web.website }}" class="pull-right">
+                More about this project
+                <i class="icon-external-link"></i>
+            </a>
+
             <a href="#/projects/category/web">
                 Other web projects I've worked on
                 <i class="icon-arrow-right"></i>
@@ -25,7 +29,7 @@
         </p>
     </div>
     <div class="col-sm-6">
-        <h2>Native</h2>
+        <h2 title="Anything that is not used on a website, or is not a web application.">Native</h2>
 
         <img ng-src="{{ native.image }}"
             class="img-rounded img-thumbnail" />
@@ -33,6 +37,11 @@
         <p>{{ native.description }}</p>
 
         <p>
+            <a ng-href="{{ native.website }}" class="pull-right">
+                More about this project
+                <i class="icon-external-link"></i>
+            </a>
+
             <a href="#/projects/category/native">
                 Other native applications I've worked on
                 <i class="icon-arrow-right"></i>

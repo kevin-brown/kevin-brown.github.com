@@ -26,7 +26,7 @@
     },
     {
         "title": "Select2",
-        "website": "https://ivaynberg.github.io/select2",
+        "website": "https://select2.github.io/",
         "preview": "/images/projects/select2.png",
         "images": [
             "/images/projects/select2/1.png",
@@ -51,7 +51,7 @@
     },
     {
         "title": "Zorg",
-        "website": "https://gunthercox.github.io/zorg/",
+        "website": "https://zorg-framework.github.io/",
         "preview": "/images/projects/zorg.jpg",
         "images": [
             "/images/projects/zorg/1.png"
@@ -164,21 +164,5 @@
         ],
         "category": "native",
         "description": "NetIRC serves as a highly flexible framework for building IRC clients using the .NET Framework."
-    },
-    {
-        "title": "QueueManager",
-        "website": "https://github.com/kevin-brown/QueueManager",
-        "preview": "https://placehold.it/300x200",
-        "images": null,
-        "tools": [
-            {
-                "slug": "dot-net",
-                "name": ".NET",
-                "image": "/images/dot-net-logo.jpg",
-                "website": "#/projects/tools/dot-net"
-            }
-        ],
-        "category": "native",
-        "description": "QueueManager allows you to have one central queue with multiple sub-queues that are managed using rules in any .NET spplication."
     }
 ]

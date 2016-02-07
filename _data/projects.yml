@@ -1,0 +1,90 @@
+- name: Select2
+  website: https://select2.github.io
+  code: https://github.com/select2/select2
+  preview: /images/projects/select2.png
+  description: >
+    Select2 is a jQuery plugin that gives you a customizable select box with
+    support for searching, tagging, remote data sets, infinite scrolling, and
+    many other options.
+  images:
+    - /images/projects/select2/1.png
+    - /images/projects/select2/2.png
+  tools:
+    - js
+    - jquery
+
+- name: Django REST framework
+  website: https://www.django-rest-framework.org
+  code: https://github.com/tomchristie/django-rest-framework
+  preview: /images/projects/django-rest-framework.png
+  description: >
+    Django REST framework is a powerful and flexible toolkit that makes it easy
+    to build Web APIs for the popular Django web framework.
+  images:
+    - /images/projects/django-rest-framework/1.png
+  tools:
+    - python
+    - django
+
+- name: Zorg
+  website: https://zorg.github.io
+  code: https://github.com/zorg/zorg
+  preview: /images/projects/zorg.jpg
+  description: >
+    Zorg is a Python framework for robotics, physical computing projects and
+    the Internet of Things. It makes it easy to configure and command your
+    creations.
+  images:
+    - /images/projects/zorg/1.png
+  tools:
+    - python
+
+- name: MouseTrap
+  website: https://wiki.gnome.org/Projects/MouseTrap
+  code: https://git.gnome.org/browse/mousetrap/
+  preview: /images/projects/mousetrap.png
+  description: >
+    MouseTrap is a standalone GNOME application that allows users with physical
+    impairments to move a mouse cursor. It is developed in Python and uses the
+    OpenCV library to detect facial features from webcam images.
+  images:
+    - /images/projects/mousetrap/1.png
+  tools:
+    - python
+
+- name: Coldstorm
+  website: http://coldstorm.tk
+  code: https://github.com/coldstorm/coldstorm
+  preview: /images/projects/coldstorm.png
+  description: >
+    Coldstorm is an open-source IRC client for the Frogbox IRC network. It is
+    built as a single page application using AngularJS and is hosted using
+    GitHub Pages.
+  images:
+    - /images/projects/coldstorm/1.png
+    - /images/projects/coldstorm/2.png
+  tools:
+    - angularjs
+    - js
+
+- name: Chrome Old NTP
+  website: https://chrome.google.com/webstore/detail/old-new-tab/klcijojgndghhnmkifealgnjgmclghio
+  code: https://github.com/kevin-brown/chrome-old-new-tab
+  preview: /images/projects/chrome-old-ntp.png
+  description: >
+    Chrome Old NTP is a custom new tab page for Google Chrome that attempts to
+    replicate the old new tab page.  It was created using AngularJS and
+    interacts with the native Chrome APIs to retrieve the required information
+    to display.
+  images:
+    - /images/projects/chrome-old-ntp/1.png
+  tools:
+    - js
+
+- name: NetIRC
+  code: https://github.com/kevin-brown/NetIRC
+  description: >
+    NetIRC serves as a highly flexible framework for building IRC clients using
+    the .NET Framework.
+  tools:
+    - dot-net

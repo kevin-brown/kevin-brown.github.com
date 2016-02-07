@@ -1,0 +1,7 @@
+{% for tool in site.data.tools %}
+{% if tool.slug == include.slug %}
+<a href="{{ tool.website }}" title="{{ tool.name }}">
+  <img src="{{ tool.image }}" alt="{{ tool.name }}" class="img-rounded img-thumbnail" width="60" height="60" />
+</a>
+{% endif %}
+{% endfor %}

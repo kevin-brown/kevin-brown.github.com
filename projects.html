@@ -1,0 +1,8 @@
+---
+layout: default
+title: Projects I've worked on - Kevin Brown
+---
+
+{% for project in site.data.projects %}
+{% include projects/card.html project=project %}
+{% endfor %}

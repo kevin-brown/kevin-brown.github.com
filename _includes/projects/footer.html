@@ -1,0 +1,10 @@
+{% if include.project.website %}
+<a href="{{ include.project.website }}" title="Visit {{ include.project.name }}">Website</a>
+{% endif %}
+{% if include.project.code %}
+<a href="{{ include.project.code }}" title="View the code that powers {{ include.project.name }}">Code</a>
+{% endif %}
+
+{% for tool in include.project.tools %}
+{% include tool.html slug=tool %}
+{% endfor %}

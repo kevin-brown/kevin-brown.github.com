@@ -5,7 +5,7 @@
 
 - slug: django
   name: Django
-  image: /images/django-logo.png
+  image: /images/django-logo.svg
   website: https://djangoproject.com
 
 - slug: dot-net

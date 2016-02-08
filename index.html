@@ -3,20 +3,22 @@ layout: default
 title: Kevin Brown
 ---
 
-<div class="container">
-    <div class="page-header">
-        <h1>I build things</h1>
+<div class="jumbotron">
+    <div class="container">
+        <h1>I build things.</h1>
+
+        <p>
+            I am a software developer who enjoys working on applications, whether they are on the web, a computer, or a mobile device. As a contributor to many highly used open source software projects, I enjoy seeing the impact that a single project can make. I am not only interested in developing though, and enjoy managing servers and applications in order to improve the predictability, efficiency, and maintainability of applications.
+        </p>
     </div>
+</div>
 
-    <p class="lead">
-        I am a software developer who enjoys working on applications, whether they are on the web, a computer, or a mobile device. As a contributor to many highly used open source software projects, I enjoy seeing the impact that a single project can make. I am not only interested in developing though, and enjoy managing servers and applications in order to improve the predictability, efficiency, and maintainability of applications.
-    </p>
-
+<div class="container">
     {% for project in site.data.projects limit:3 %}
     {% include projects/card.html project=project %}
     {% endfor %}
 
     <p>
-        <a href="/projects">View more of my work</a>
+        <a href="/projects.html" class="projects-view-more">View other projects I've worked on</a>
     </p>
 </div>

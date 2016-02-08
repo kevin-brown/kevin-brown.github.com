@@ -3,6 +3,12 @@ layout: default
 title: Projects I've worked on - Kevin Brown
 ---
 
+<div class="container">
+    <div class="page-header">
+        <h1>Some of the things I've built.</h1>
+    </div>
+
 {% for project in site.data.projects %}
 {% include projects/card.html project=project %}
 {% endfor %}
+</div>

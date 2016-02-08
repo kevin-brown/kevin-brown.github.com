@@ -1,10 +1,15 @@
-{% if include.project.website %}
-<a href="{{ include.project.website }}" title="Visit {{ include.project.name }}">Website</a>
-{% endif %}
-{% if include.project.code %}
-<a href="{{ include.project.code }}" title="View the code that powers {{ include.project.name }}">Code</a>
-{% endif %}
+<span class="project-links">
+    {% if include.project.website %}
+    <a href="{{ include.project.website }}" title="Visit {{ include.project.name }}"><i class="fa fa-external-link"></i> Website</a>
+    {% endif %}
+    {% if include.project.code %}
+    <a href="{{ include.project.code }}" title="View the code that powers {{ include.project.name }}"><i class="fa fa-code"></i> Code</a>
+    {% endif %}
+</span>
 
+<span class="project-tools">
+<span>Tools used:</span>
 {% for tool in include.project.tools %}
 {% include tool.html slug=tool %}
 {% endfor %}
+</span>

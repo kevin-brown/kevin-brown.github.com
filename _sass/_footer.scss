@@ -1,0 +1,24 @@
+footer {
+    background-color: $navbar-default-bg;
+    color: $navbar-default-color;
+
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+
+    .nav {
+        line-height: 20px;
+
+        a, a:hover, a:focus {
+            background-color: transparent;
+        }
+
+        a {
+            color: $navbar-default-link-color;
+        }
+
+        a:hover, a:focus {
+            color: $navbar-default-link-hover-color;
+        }
+    }
+}

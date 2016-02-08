@@ -1,0 +1,34 @@
+.project {
+    .panel-title {
+        font-size: 2em;
+    }
+
+    .panel-body {
+        img {
+            float: left;
+            margin-right: 1em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    }
+
+    .project-links {
+        margin-right: 1em;
+
+        a {
+            padding: 1em;
+        }
+    }
+
+    .project-tools {
+        span {
+            padding-right: 1em;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}

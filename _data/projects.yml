@@ -50,6 +50,7 @@
   images:
     - /images/projects/mousetrap/1.png
   tools:
+    #- opencv
     - python
 
 - name: Coldstorm
@@ -66,6 +67,45 @@
   tools:
     - angularjs
     - js
+
+- name: Budgetizer
+  website: http://devpost.com/software/budget-builder
+  description: >
+    A personal budgeting tool using Plaid's transaction API.
+  tools:
+    #- flask
+    #- mongodb
+    - python
+
+- name: Comma
+  website: http://devpost.com/software/comma
+  code: https://github.com/tredzko/Comma
+  description: >
+    Determining the mood of the movie you are going to watch, before you start
+    watching.
+  tools:
+    #- flask
+    #- opencv
+    - python
+
+- name: New York Startup Index
+  website: http://devpost.com/software/new-york-startup-index
+  code: https://github.com/gunthercox/NewYorkStartupIndex
+  description: >
+    New York Startup Index provides an interactive view of the good and bad of
+    the city, presented in a way that allows you to easily determine the best
+    and worst places to launch a startup. Information about public
+    transportation, local businesses, and crime information are all aggregated
+    on a single map to give you a quick overlay of both historical and
+    real-time information that will allow you to quickly decide where you want
+    to launch a startup.
+  tools:
+    #- flask
+    - js
+    - jquery
+    #- mongodb
+    #- open-data
+    - python
 
 - name: Chrome Old NTP
   website: https://chrome.google.com/webstore/detail/old-new-tab/klcijojgndghhnmkifealgnjgmclghio

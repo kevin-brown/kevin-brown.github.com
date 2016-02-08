@@ -10,7 +10,7 @@
 
 - slug: dot-net
   name: .NET
-  image: /images/dot-net-logo.jpg
+  image: /images/dot-net-logo.svg
   website: https://www.microsoft.com/net
 
 - slug: flask

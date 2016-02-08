@@ -1,6 +1,6 @@
 - slug: angularjs
   name: AngularJS
-  image: /images/angularjs-logo.png
+  image: /images/angularjs-logo.svg
   website: https://angularjs.org
 
 - slug: django

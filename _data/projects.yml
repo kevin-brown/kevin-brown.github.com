@@ -50,7 +50,7 @@
   images:
     - /images/projects/mousetrap/1.png
   tools:
-    #- opencv
+    - opencv
     - python
 
 - name: Coldstorm
@@ -73,8 +73,8 @@
   description: >
     A personal budgeting tool using Plaid's transaction API.
   tools:
-    #- flask
-    #- mongodb
+    - flask
+    - mongodb
     - python
 
 - name: Comma
@@ -84,8 +84,8 @@
     Determining the mood of the movie you are going to watch, before you start
     watching.
   tools:
-    #- flask
-    #- opencv
+    - flask
+    - opencv
     - python
 
 - name: New York Startup Index
@@ -94,17 +94,12 @@
   description: >
     New York Startup Index provides an interactive view of the good and bad of
     the city, presented in a way that allows you to easily determine the best
-    and worst places to launch a startup. Information about public
-    transportation, local businesses, and crime information are all aggregated
-    on a single map to give you a quick overlay of both historical and
-    real-time information that will allow you to quickly decide where you want
-    to launch a startup.
+    and worst places to launch a startup.
   tools:
-    #- flask
+    - flask
     - js
     - jquery
-    #- mongodb
-    #- open-data
+    - mongodb
     - python
 
 - name: Chrome Old NTP
@@ -119,6 +114,7 @@
   images:
     - /images/projects/chrome-old-ntp/1.png
   tools:
+    - angularjs
     - js
 
 - name: NetIRC

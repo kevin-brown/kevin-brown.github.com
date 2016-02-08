@@ -13,15 +13,30 @@
   image: /images/dot-net-logo.jpg
   website: https://www.microsoft.com/net
 
+- slug: flask
+  name: Flask
+  image: /images/flask-logo.svg
+  website: http://flask.pocoo.org/
+
 - slug: jquery
   name: jQuery
-  image: /images/jquery-logo.gif
+  image: /images/jquery-logo.svg
   website: https://jquery.com
 
 - slug: js
   name: JavaScript
   image: /images/javascript-logo.png
   website: https://en.wikipedia.org/wiki/JavaScript
+
+- slug: mongodb
+  name: MongoDB
+  image: /images/mongodb-logo.svg
+  website: https://www.mongodb.org/
+
+- slug: opencv
+  name: OpenCV
+  image: /images/opencv-logo.svg
+  website: http://opencv.org/
 
 - slug: python
   name: Python

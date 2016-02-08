@@ -25,7 +25,7 @@
 
 - slug: js
   name: JavaScript
-  image: /images/javascript-logo.png
+  image: /images/javascript-logo.svg
   website: https://en.wikipedia.org/wiki/JavaScript
 
 - slug: mongodb

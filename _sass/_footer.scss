@@ -2,12 +2,21 @@ footer {
     background-color: $navbar-default-bg;
     color: $navbar-default-color;
 
-    height: 40px;
+    min-height: 40px;
     line-height: 40px;
     vertical-align: middle;
 
     .nav {
         line-height: 20px;
+        float: right;
+
+        @media (max-width: $grid-float-breakpoint) {
+            float: none;
+
+            > li {
+                float: none;
+            }
+        }
 
         a, a:hover, a:focus {
             background-color: transparent;

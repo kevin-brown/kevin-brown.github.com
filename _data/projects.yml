@@ -26,6 +26,17 @@
     - python
     - django
 
+- name: Jinja
+  website: https://jinja.palletsprojects.com/
+  code: https://github.com/pallets/jinja/
+  preview: /images/projects/jinja.png
+  description: >
+    Jinja is a modern and designer-friendly templating language for Python,
+    modelled after Django’s templates. It is fast, widely used and secure with
+    the optional sandboxed template execution environment.
+  tools:
+    - python
+
 - name: Zorg
   website: https://zorg.github.io
   code: https://github.com/zorg/zorg
